@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import {
   Container,
   Col,
@@ -11,7 +11,7 @@ import {
   Form
 } from 'react-bootstrap'
 
-const Home = () => (<>
+const Home = () => (<Fragment>
   <Navbar bg="light" expand="lg">
     <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -40,6 +40,6 @@ const Home = () => (<>
       </Col>
     </Row>
   </Container>
-</>)
+</Fragment>)
 
 export default Home
